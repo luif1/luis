@@ -1,0 +1,17 @@
+body{
+    background-color: aquamarine; color: black;
+}
+.sublinhado{
+    text-decoration: underline;
+}
+.vermelho{text-transform: uppercase;}
+#msiudculo{
+    text-transform: uppercase;
+}
+#italico{
+    font-style: italic;
+}
+h1:hover{background-color: blueviolet;}
+.poema{
+    color: aqua;
+}
