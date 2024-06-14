@@ -1,5 +1,8 @@
 body{
-    background-color: aquamarine; color: black;
+    background-color: aquamarine; color: #00ffbf;
+    background-image: url(retro.png.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .sublinhado{
     text-decoration: underline;
@@ -13,13 +16,14 @@ body{
 }
 h1:hover{background-color: rgb(132, 0, 255);}
 .poema{
-    color: aqua;
+    color: rgb(247, 0, 255);
 }
 
 table, th, td {
 
     border: 1px inset black;
     border-radius: 10px;
+    outline: inset;
 
 }
 

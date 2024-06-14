@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="uma descrição legal">
+    <meta name="keywords" content="css,html,programação">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img.png.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- menu de navegação-->
+    <a href="index.html"><span
+    class="material-symbols-outlined"></span>INICIO</a>
+    <a href="sobre.html">SOBRE</a>
+    <a href="aula_form.html">FORMS</a>
+
+    <section>
+        <form action="" enctype="multipart/form-data">
+             
+            
+            <br><label for="">Nome</label><br>
+            <input type="text" name="nome" id="nome" value=""><br>
+
+            <br><label for="senha">Senha</label><br>
+            <input type="password" name="senha" id="senha"><br>
+
+            <br><label for="num">Numero</label><br>
+            <input type="number" name="numero" id="num"><br>
+
+            <br><label for="email">Email</label><br>
+            <input type="email" name="email" id="email"><br>
+
+            <br><label for="buscar">Buscar</label><br>
+            <input type="search" name="buscar" id="buscar"><br>
+            
+ 
+            <fieldset>
+                
+                <legend>Qual sua linguagem favorita</legend>
+
+                <input type="radio" name="lang" id="html" value="html">
+                <label for="html">HTML</label>
+
+                <input type="radio" name="lang" id="css" value="css">
+                <label for="css">CSS</label>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Como você chega no SENAC</legend>
+
+                <input type="checkbox" name="transporte[]" id="pe" value="pe">
+                <label for="pe">A pé</label>
+
+                <input type="checkbox" name="transporte[]" id="onibus" value="onibus">
+                <label for="onibus">Onibus</label>
+
+            </fieldset>
+
+            <label for="cor">Cor</label>
+            <input type="color" name="cor" id="cor">
+
+            <label for="data">Data</label>
+            <input type="date" name="data" id="data">
+
+            <label for="foto">Foto de perfil</label>
+            <input type="file" name="foto" accept="image/*">
+
+            <input type="hiden" name="id" value="200">
+
+            <label for="tam">Selecione o tamanho da roupa</label>
+            <select name="tsmsnho-roupa" id="tam">
+                <option value="p">P</option>
+                <option value="m">M</option>
+                <option value="g">G</option>
+                <option value="gg">GG</option>
+            </select>
+
+            <textarea name="descricao" id="descricao" cols="10" rows="10"></textarea>
+              
+            <input type="submit" value="Enviar"> 
+        </form>
+    </section>
+</body>
+
+</html>
