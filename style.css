@@ -11,7 +11,33 @@ body{
 #italico{
     font-style: italic;
 }
-h1:hover{background-color: blueviolet;}
+h1:hover{background-color: rgb(132, 0, 255);}
 .poema{
     color: aqua;
+}
+
+table, th, td {
+
+    border: 1px inset black;
+    border-radius: 10px;
+
+}
+
+#foto-perfil {
+    border-radius: 50px;
+}
+
+@import url();
+
+:root {
+    --cor-primaria: orange;
+    --cor-secundaria: purple;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+
 }
